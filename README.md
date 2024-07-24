@@ -6,7 +6,7 @@ A user interface that can chat with bot using self-uploaded documents or search 
 1. Install Python
   - Visit [Python](https://www.python.org/) to install Python
 2. Create Virtual Environment
-  - Install virtual environment package
+    - Install virtual environment package
 ```
 pip install virtualenv
 ```
@@ -25,9 +25,9 @@ pip install -r requirements.txt
 ```
 
 4. Set up config_key.py to store openai api key
-     - create a config_key.py file in directory.
-     - create a openai account and set up a key, the key can be create and found [here](https://platform.openai.com/api-keys)
-     - copy the following code with your own key and paste it in config_key.py
+   - create a config_key.py file in directory.
+   - create a openai account and set up a key, the key can be create and found [here](https://platform.openai.com/api-keys)
+   - copy the following code with your own key and paste it in config_key.py
 ```
 import os
 
