@@ -72,7 +72,7 @@ def ddg_search_agent(temperature=0.1):
         model="gpt-4o-mini"
     )
     return initialize_agent(
-        tools=tools, llm=LLM, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
+        tools=tools, llm=LLM, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True, handle_parsing_errors=True
     )
     
 def config_retrieval_chain(
