@@ -53,5 +53,8 @@ When done deactivate environment.
 deactivate
 ```
 
+## Example
+![HuggingFace Space](https://huggingface.co/spaces/Jaspertw177/RAGBot-gpt)
+
 ## Credit
 Repo inspired by [benman1/generative_ai_with_langchain](https://github.com/benman1/generative_ai_with_langchain?tab=readme-ov-file)
